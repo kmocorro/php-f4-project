@@ -1,0 +1,14 @@
+Lot Extractor Web App
+Created by: Kevin Mocorro
+FAB4
+
+Patch Logs
+patch version 1.1.0 - Layout index.php style, css, bootstrap;
+		    - Having trouble logging in link @ index.php
+
+patch version 1.1.1 - Include Ask Question button @ dropdown box home.php
+		    - Include Fab4 logo (c) Kevin M
+		    - Include ajax yellow loader
+
+patch version 1.2.0   - Revised Cumulative Cycle Time that start from Damage (not from Damage_stage)
+		    - Added Cycle Time

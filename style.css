@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	background:#f7f7f7;
+}
+
+.form-signin {
+    max-width: 430px;
+    padding: 19px 29px 29px;
+    margin: 130px auto 0;
+	  margin-top:90px;
+
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+			
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#990000;
+	font-weight:lighter;
+}
+
+.form-signin .form-signin-heading{
+    background: transparent url('fab4_grey_v2.png') top center no-repeat;
+    background-size: 100px 40px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 0 auto 20px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+    font-size: 1em;
+    font-family: Helvetica,Arial,sans-serif;
+    
+}
+
+.signin-form, .body-container
+{
+	
+  background-color: #fff;
+	margin-top:0px;
+	
+}
+.navbar-brand{
+	font-family:"Lucida Handwriting";
+}
+
+#btn-submit{
+	height:45px;
+}
+
+input[type="text"] {
+	background-repeat:repeat-x;
+	border-left: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 0px;
+	border-color:#ddd;
+	height:30px;
+	width:200px;
+	font-weight: initial;
+  padding-left: 6px;
+  box-sizing: border-box;
+
+}
+
+input[name="sicon"] {
+	background-repeat:repeat-x;
+  border-left: 0px;
+	border-right: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+	border-color:#ddd;
+  background-color: #fff;
+	height:30px;
+	width:30px;
+  font-family: FontAwesome;
+}
+
+.chooseContainer {
+	
+	width:200px;
+	clear: both;
+	
+}
+
+.chooseContainer input {
+	
+	width:100%;
+	clear:both;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fa;
+}
+
+table#mainTable { 
+    position: relative;
+    padding: 10px;
+    margin-bottom: -1px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #586069;
+    background-color: #f1f8ff;
+    border: 1px solid #c8e1ff;
+    border-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 100%;
+}
+
+table#mainTable thead th { font-weight: 600; }
+table#mainTable thead th, table#mainTable tbody td { 
+  padding: .3rem; font-size: 1.2rem;
+}
+table#mainTable tbody td { 
+
+  padding-right: 1.9rem; font-size: 1.2rem;
+  color: #444; background-color: ""; 
+  text-align:left;
+}
+table#mainTable tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 360px) {
+  table#mainTable caption { background-image: none; }
+  table#mainTable thead { display: none; }
+  table#mainTable tbody td { 
+    display: block; padding: .3rem; 
+  }
+  table#mainTable tbody tr td:first-child { 
+    background: #2e6da4; color: #fff; 
+  }
+	table#mainTable tbody td:before { 
+    content: attr(data-th); 
+    font-weight: bold;
+    display: inline-block;
+    width: 18rem;
+    text-align: left;
+  }
+}
+
+form[name='frmSearch']{
+	padding:10px;
+	background-color: #f9f9f9;
+	
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #28a745;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: right;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
